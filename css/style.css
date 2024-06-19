@@ -1,0 +1,989 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --firstcolor:#365E32;
+    --secondcolor:#81A263;
+    --tjirdcolor:#E7D37F;
+    --fourcolor:#FD9B63;
+    --bais:#ffffff;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    transition: all 2s 0.5 linear;
+
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 20px;
+    max-width: 100%;
+    background-color: var(--firstcolor);
+    position: relative;
+    border-bottom: var(--bais) 2px solid;
+
+    
+}
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header .container  .logo{
+    font-size: 20px;
+    color:var(--tjirdcolor);
+    font-weight:bold;
+    margin-right: 50px;
+}
+header .container ul li{
+    display: inline-block;
+    
+}
+header .container ul li a:hover{
+    color:var(--fourcolor);
+    
+}
+header .container ul li a{
+    padding: 10px;
+    font-size: 20px;
+    color:var(--tjirdcolor);
+    font-weight:bold;
+}
+header .container .bottoms{
+    display: flex;
+    gap:15px;
+    margin-left: 50px;
+
+}
+header .container .bottoms span { 
+     font-size: 20px;
+    color:var(--tjirdcolor);
+    font-weight:bold;
+    margin-top: 10px;
+
+
+}
+header .container button{
+    font-size: 20px;
+    color:var(--bais);
+    font-weight:bold;
+    background-color: var(--fourcolor); 
+    border-radius: 14px;
+    padding: 10px;
+    outline: none;
+    border: none;
+
+}
+header .container .bottoms span{
+    cursor: pointer;
+}
+section{
+    padding: 20px;
+    background-color: var(--firstcolor);
+
+}
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .container .boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 15px;
+}
+section .container .boxes .box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section .container .boxes .box1 h1{
+    color: var(--bais);
+    text-transform: capitalize;
+
+}
+.boxes .box1 p {
+    color: var(--bais);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+section .container .boxes .box2 {
+    
+        display: flex;
+        gap: 25px;
+       
+        align-items: center;
+    }
+
+section .container .boxes .box2 button{
+    outline: none;
+    border: none;
+    background-color: var(--fourcolor);
+    color: var(--bais);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 14px;
+}
+section .container .boxes .box2 a{
+    
+    
+    color: var(--bais);
+    font-size: 20px;
+   
+   
+}
+section .container .image{
+    max-width: 100%;
+    margin-right: 15;
+}
+section .container .image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 14px;
+
+}
+.sec1{
+    padding: 20px;
+}
+.sec1 .container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.sec1 .container .texts{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 .container .texts h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color:var(--tjirdcolor);
+    text-align: center;
+    
+}
+.sec1 .container .texts p{
+    font-size: 27px;
+    text-transform: capitalize;
+    color:var(--firstcolor);
+    font-weight: bold;
+    text-align: center;
+}
+.sec1 .container .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.sec1 .container .boxes .box{
+    background-color: var(--bais);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   border-radius: 14px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap:10px;
+   box-shadow: 0 0 10px #ddd;
+
+
+}
+.sec1 .container .boxes .box1 i{
+    font-size: 15px;
+    color:var(--firstcolor);
+
+  
+}
+.sec1 .container .boxes .box1 h3{
+    color:var(--firstcolor);
+    font-size: 25px;
+}
+.sec1 .container .boxes .box1 h4{
+    color:var(--secondcolor);
+    font-size: 20px;
+}
+.sec1 .container .boxes .box2 i{
+    font-size: 15px;
+    color:var(--fourcolor);
+
+  
+}
+.sec1 .container .boxes .box2 h3{
+    color:var(--fourcolor);
+    font-size: 25px;
+}
+.sec1 .container .boxes .box2 h4{
+    color:var(--fourcolor);
+    font-size: 20px;
+}
+.sec1 .container .boxes .box3 i{
+    font-size: 15px;
+    color:var(--tjirdcolor);
+
+  
+}
+.sec1 .container .boxes .box3 h3{
+    color:var(--tjirdcolor);
+    font-size: 25px;
+}
+.sec1 .container .boxes .box3 h4{
+    color:var(--tjirdcolor);
+    font-size: 20px;
+}
+.sec1 .container .boxes .box4 i{
+    font-size: 15px;
+    color:var(--secondcolor);
+
+  
+}
+.sec1 .container .boxes .box4 h3{
+    color:var(--secondcolor);
+    font-size: 25px;
+}
+.sec1 .container .boxes .box4 h4{
+    color:var(--firstcolor);
+    font-size: 20px;
+}
+.sec2{
+    padding:20px;
+}
+.sec2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sec2 .container .image{
+    max-width: 100%;
+}
+.sec2 .container .image img{
+    width:250px;
+    height: 250px;
+    border-radius: 14px;
+}
+.sec2 .container .boxes{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.sec2 .container .boxes .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec2 .container .boxes .box1 h5{
+    color:var(--tjirdcolor);
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+.sec2 .container .boxes .box1 p{
+    color:var(--firstcolor);
+    font-size:25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.sec2 .container .boxes .box1 pre{
+    color:var(--secondcolor);
+    font-size:20px;
+    text-transform: capitalize;
+}
+.sec2 .container .boxes .box2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.sec2 .container .boxes .box2 button{
+    outline: none;
+    border: none;
+    background-color: var(--fourcolor);
+    color: var(--bais);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 14px;
+}
+.sec2 .container .boxes .box2 a{
+    color: var(--firstcolor);
+    font-size: 20px; 
+    font-weight: bold;
+}
+.sec2 .container .boxes .box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec2 .container .boxes .box3 .boxf{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+}
+.sec2 .container .boxes .box3 .boxf span{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--firstcolor);
+
+}
+
+.sec2 .container .boxes .box3 .boxf p{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: var(--secondcolor);
+}
+.sec3{
+    padding: 20px;
+}
+.sec3 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.sec3 .container .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 .container .box1 span{
+    font-size: 15px;
+    color: var(--tjirdcolor);
+    text-transform: capitalize;
+
+
+}
+.sec3 .container .box1 p{
+    font-size: 25px;
+    color: var(--firstcolor);
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+    
+
+.sec3 .container .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    
+}
+.sec3 .container .cards .cardss{
+    padding-top: 20px;
+    padding-bottom: 20px;
+     background-color: var(--bais);
+     box-shadow: 0 0 10px #ddd ;
+     border-radius: 14px;
+     display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.sec3 .container .cards .cardss .image{
+    max-width: 100%;
+    margin: auto;
+}
+.sec3 .container .cards .cardss .image img{
+    width:100%;
+    height: 100%;
+    border-radius: 14px;
+}
+.sec3 .container .cards .cardss .endcards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec3 .container .cards .cardss .endcards .texts{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+
+}
+ .sec3 .container .cards .cardss .endcards .texts p , span{
+    font-size: 15px;
+color: var(--firstcolor);
+text-transform: capitalize;
+font-weight: bold;
+
+ }  
+ .sec3 .container .cards .cardss .endcards .icon i{
+    font-size: 20px;
+    color: var(--firstcolor);
+ } 
+ .sec3 .container .buttons button{
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: var(--fourcolor);
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--bais);
+    padding: 18px;
+    border-radius: 14px;
+ }
+ .sec4{
+    padding:20px;
+ }
+ .sec4 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ .sec4 .container .textss {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.sec4 .container .textss .text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+ .sec4 .container .textss .text1 span{
+    text-transform: capitalize;
+    color: var(--fourcolor);
+    font-size: 15px;
+ }
+ .sec4 .container .textss .text1 p{
+    text-transform: capitalize;
+    color: var(--firstcolor);
+    font-size:25;
+    font-weight: bold;
+ }
+ .sec4 .container .textss .text1 pre {
+    text-transform: capitalize;
+    color: var(--secondcolor);
+    font-size: 12px;
+}
+.sec4 .container .buttons button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 30px;
+    width: 303px;
+    border-radius: 14px;
+    background-color: var(--bais);
+    box-shadow: 0 0 10px #ddd;
+    height: 62px;
+    max-width: 100%;
+}
+ .sec4 .container .buttons button h2{
+    color:var(--secondcolor);
+    font-size: 15px;
+
+
+ }
+ .sec4 .container .buttons button span{
+    padding: 10px;
+    background-color: var(--fourcolor);
+    color: var(--bais);
+    font-size: 20px;
+    border-radius: 14px;
+ }
+
+ .sec4 .container .images{
+    max-width: 100%;
+ }
+ .sec4 .container .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+   
+ }
+ footer{
+    padding: 20px;
+max-width: 100%;
+background-color: var(--firstcolor);
+
+ }
+ footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+
+ }
+ footer .container .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+ }
+ footer .container .part1 p , pre{
+    color:var(--bais);
+    font-size: 20px;
+    font-weight: bold;
+ }
+ footer .container .part1 .contact{
+    color:var(--bais);
+    background-color: var(--tjirdcolor);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+ }
+ footer .container .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+ }
+ footer .container .cards .footers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+
+ }
+ footer .container .cards .footers h2 , h3{
+    color:var(--bais);
+    font-size: 20px;
+    text-transform: capitalize;
+    
+ }
+ 
+ footer .container .cards .card5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+ }
+ footer .container .cards .card5 h2{
+    color:var(--bais);
+    font-size: 20px;
+    text-transform: capitalize;
+ }
+ footer .container .cards .card5 .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-size: 18px;
+    color:var(--tjirdcolor);
+ }
+ footer .container .cards .card5 .icons:hover i{
+    color:var(--bais);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+     header .container .logo {
+        font-size: 20px;
+        color: var(--tjirdcolor);
+        font-weight: bold;
+       margin: auto;
+    }
+    header .container ul li {
+        display: block;
+        text-align: center;
+        margin: 10px;
+    }
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .container ul li a {
+        padding: 12px;
+        font-size: 20px;
+        color: var(--tjirdcolor);
+        font-weight: bold;
+    }
+    section .container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    section .container .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    section .container .boxes .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+   section .container .boxes .box1 h1 {
+        color: var(--bais);
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .boxes .box1 p {
+        color: var(--bais);
+        font-size: 15px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .sec1 .container .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .sec2 .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec2 .container .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .sec2 .container .boxes .box1 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .sec2 .container .boxes .box1 h5 {
+        color: var(--tjirdcolor);
+        font-size: 15px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .sec2 .container .boxes .box1 p {
+        color: var(--firstcolor);
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sec2 .container .boxes .box1 pre {
+        color: var(--secondcolor);
+        font-size: 9px;
+        text-transform: capitalize;
+    }
+    .sec2 .container .boxes .box2 {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .sec3 .container .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+    } 
+    .sec4 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .sec4 .container .textss {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4 .container .textss .text1 {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+    .sec4 .container .textss .text1 span {
+        text-transform: capitalize;
+        color: var(--fourcolor);
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .sec4 .container .textss .text1 span {
+        text-transform: capitalize;
+        color: var(--fourcolor);
+        font-size: 15px;
+        text-align: center;
+    }
+    .sec4 .container .textss .text1 p {
+        text-transform: capitalize;
+        color: var(--firstcolor);
+        font-size: 25;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sec4 .container .textss .text1 pre {
+        text-transform: capitalize;
+        color: var(--secondcolor);
+        font-size: 9px;
+        text-align: center;
+    }
+    footer .container .part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+
+}
+footer .container .part1 p, pre {
+    color: var(--bais);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+footer .container .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+}
+@media (min-width:768px) {
+    header .container ul li a {
+        padding: 7px;
+        font-size: 13px;
+        color: var(--tjirdcolor);
+        font-weight: bold;
+    }
+    header .container .bottoms span{
+        display: flex;
+    }
+    section .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    
+    }
+    .sec2 .container {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        /* justify-content: center; */
+        gap: 36px;
+    }
+    .sec2 .container .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .boxes .box1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .boxes .box1 h5 {
+        color: var(--tjirdcolor);
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    .sec2 .container .boxes .box1 p {
+        color: var(--firstcolor);
+        font-size: 22px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .sec2 .container .boxes .box1 pre {
+        color: var(--secondcolor);
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+    .sec2 .container .boxes .box2 {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .sec2 .container .boxes .box3 {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* flex-direction: column; */
+        justify-content: center;
+        gap: 10px;
+    }
+    footer .container .part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    footer .container .part1 p, pre {
+        color: var(--bais);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+   
+}
+@media (min-width:1000px) {
+    .sec2 .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+      
+    .sec2 .container .boxes{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .sec2 .container .boxes .box1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sec2 .container .boxes .box1 h5{
+        color:var(--tjirdcolor);
+        font-size: 15px;
+        text-transform: capitalize;
+    
+    }
+    .sec2 .container .boxes .box1 p{
+        color:var(--firstcolor);
+        font-size:25px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .sec2 .container .boxes .box1 pre{
+        color:var(--secondcolor);
+        font-size:20px;
+        text-transform: capitalize;
+    }
+    .sec2 .container .boxes .box2{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .sec2 .container .boxes .box2 button{
+        outline: none;
+        border: none;
+        background-color: var(--fourcolor);
+        color: var(--bais);
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 14px;
+    }
+    .sec2 .container .boxes .box2 a{
+        color: var(--firstcolor);
+        font-size: 20px; 
+        font-weight: bold;
+    }
+    .sec2 .container .boxes .box3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .sec2 .container .boxes .box3 .boxf{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        align-items: center;
+    }
+    .sec2 .container .boxes .box3 .boxf span{
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--firstcolor);
+    
+    }
+    
+    .sec2 .container .boxes .box3 .boxf p{
+        font-size: 15px;
+        text-transform: capitalize;
+        color: var(--secondcolor);
+    }
+    
+   
+    
+    
+    footer .container .part1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }        
+    footer .container .part1 p{
+        margin-bottom: 23px;
+    }
+    
+    
+    
+    
+}
